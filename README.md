@@ -10,6 +10,6 @@ To experience Retrieval Augmented Generation (RAG), follow these steps:
 
 ## Additional Information
 
-- The Mistral 7B Instruct model is utilized in this demo. You can find the model [here](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/blob/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf) with LlamaIndex. The model presented here is a 4-bit quantized model, allowing it to run efficiently on free Google Colab resources.
+- The Mistral 7B Instruct model is utilized in this demo. You can find the model [here](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/blob/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf) on HuggingFace. The model presented here is a 4-bit quantized model, allowing it to run efficiently on free Google Colab resources.
 
 Feel free to explore and enhance your understanding of Retrieval Augmented Generation with this demo.
