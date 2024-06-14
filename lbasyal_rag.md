@@ -1,15 +1,35 @@
-# Guidelines to access the files:
+# Project: RAG-based ChatBot with PDF Integration
 
-You can open the file, "lbasyal_RAG_based_chatbot_llama_2_pdf.ipynb," to see how the experiment was carried out. For further information, refer to the related files mentioned below.
+## Overview
 
-## lbasyal_RAG_based_chatbot_llama_2_pdf.ipynb:
+This project implements a Retrieval-Augmented Generation (RAG)-based ChatBot integrated with PDF documents. The chatbot utilizes models like "meta-llama/Llama-2-7b-chat-hf" and "sentence-transformers/multi-qa-MiniLM-L6-cos-v1" for embedding and inference tasks. This repository contains files and resources used in the experimentation and evaluation of the chatbot system.
 
-This is the main file for experimentation purposes to implement the RAG-based ChatBot with PDF. The models used for this purpose are "meta-llama/Llama-2-7b-chat-hf" and "sentence-transformers/multi-qa-MiniLM-L6-cos-v1" as the embedding model. This file provides complete information about the code execution and testing of the model inference. Furthermore, it demonstrates how the ROUGE score is calculated to compare the model response with the reference response.
+## Guidelines to Access the Files
 
-## policy-booklet-0923.pdf:
+You can access the following files to understand the experiment and explore the resources used:
 
-This is the data source about the care insurance policy booklet used as a knowledge base for this experiment.
+### [lbasyal_RAG_based_chatbot_llama_2_pdf.ipynb](lbasyal_RAG_based_chatbot_llama_2_pdf.ipynb)
 
-## query_response_pairs.csv:
+This Jupyter Notebook file serves as the main document for the experimentation phase. It details the implementation of the RAG-based ChatBot using PDF integration. The notebook covers the execution of code, testing of model inference, and calculation of ROUGE scores to compare model responses with reference responses.
 
-This file represents 35 query-response pairs generated from the above policy booklet. These query-response pairs are used for experimentation and evaluation between the reference response and the model-generated response for the given query. The pairs were generated with the help of the GPT-4o model from OpenAI and were evaluated and edited from a human perspective in terms of accuracy, reasoning, relevance, and completeness. To prepare these pairs, we adhered to basic standards as per the requirements. In my case, I generated these pairs as clearly and concisely as possible. The pairs include various types of questions taken from diverse pages within the data source. Some questions ask for general information, while others inquire specifically about numbers. I believe the generated query_response_pairs.csv file provides a broader perspective in terms of query generation from random pages in the PDF file.
+### [policy-booklet-0923.pdf](policy-booklet-0923.pdf)
+
+This PDF file contains the care insurance policy booklet used as a knowledge base for the chatbot experiment. It provides the foundational information that the chatbot relies on to answer user queries.
+
+### [query_response_pairs.csv](query_response_pairs.csv)
+
+This CSV file contains 35 query-response pairs generated from the policy booklet. These pairs are used for evaluating the chatbot's performance by comparing its responses with human-generated reference responses. Each pair underwent evaluation for accuracy, reasoning, relevance, and completeness.
+
+The queries in this dataset cover a variety of topics from different sections of the policy booklet, ensuring a comprehensive evaluation of the chatbot's capabilities.
+
+## Usage
+
+To replicate the experiment or explore the files:
+
+1. Open [lbasyal_RAG_based_chatbot_llama_2_pdf.ipynb](lbasyal_RAG_based_chatbot_llama_2_pdf.ipynb) in a Jupyter Notebook environment to view the implementation details.
+   
+2. Download [policy-booklet-0923.pdf](policy-booklet-0923.pdf) to review the care insurance policy used as the knowledge base.
+   
+3. Download [query_response_pairs.csv](query_response_pairs.csv) to analyze the dataset of query-response pairs used for evaluation.
+
+
