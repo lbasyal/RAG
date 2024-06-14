@@ -18,9 +18,9 @@ This PDF file contains the care insurance policy booklet used as a knowledge bas
 
 ### [query_response_pairs.csv](query_response_pairs.csv)
 
-This CSV file contains 35 query-response pairs generated from the policy booklet. These pairs are used for evaluating the chatbot's performance by comparing its responses with human-generated reference responses. Each pair underwent evaluation for accuracy, reasoning, relevance, and completeness.
+This CSV file contains 35 query-response pairs generated from the policy booklet. These pairs are used for evaluating the chatbot's performance by comparing reference responses with model generated responses. 
 
-The queries in this dataset cover a variety of topics from different sections of the policy booklet, ensuring a comprehensive evaluation of the chatbot's capabilities.
+The queries in this dataset cover a variety of topics from different sections of the policy booklet, ensuring a comprehensive evaluation of the chatbot's capabilities. The query-response pairs were generated with the help of the GPT-4o model, and each pair underwent human evaluation for accuracy, reasoning, relevance, and completeness.
 
 ## Usage
 
