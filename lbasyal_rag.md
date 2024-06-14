@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a Retrieval-Augmented Generation (RAG)-based ChatBot integrated with PDF documents. The chatbot utilizes models like "meta-llama/Llama-2-7b-chat-hf" and "sentence-transformers/multi-qa-MiniLM-L6-cos-v1" for embedding and inference tasks. This repository contains files and resources used in the experimentation and evaluation of the chatbot system.
+This project implements a Retrieval-Augmented Generation (RAG)-based ChatBot integrated with PDF documents. The chatbot utilizes models like "meta-llama/Llama-2-7b-chat-hf" and "sentence-transformers/multi-qa-MiniLM-L6-cos-v1" for inference and embedding tasks. This repository contains files and resources used in the experimentation and evaluation of the chatbot system.
 
 ## Guidelines to Access the Files
 
@@ -10,7 +10,7 @@ You can access the following files to understand the experiment and explore the 
 
 ### [lbasyal_RAG_based_chatbot_llama_2_pdf.ipynb](lbasyal_RAG_based_chatbot_llama_2_pdf.ipynb)
 
-This Jupyter Notebook file serves as the main document for the experimentation phase. It details the implementation of the RAG-based ChatBot using PDF integration. The notebook covers the execution of code, testing of model inference, and calculation of ROUGE scores to compare model responses with reference responses.
+This Jupyter Notebook file serves as the main document for the experimentation phase. It details the implementation of the RAG-based ChatBot using PDF integration. The notebook covers the execution of code, testing of model inference, and calculation of ROUGE scores to compare model response with reference response.
 
 ### [policy-booklet-0923.pdf](policy-booklet-0923.pdf)
 
